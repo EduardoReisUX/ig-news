@@ -6,7 +6,11 @@ interface SubscribeButton {
 
 export function SubscribeButton({ priceId }: SubscribeButton) {
   return (
-    <button type="button" className={styles.subscribeButton}>
+    <button
+      type="button"
+      className={styles.subscribeButton}
+      // onClick={handleSubscribe}
+    >
       Subscribe now
     </button>
   );
