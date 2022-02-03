@@ -1,5 +1,7 @@
 <h1 align="center">
-  <img src="github/logo.svg" alt="logo" width="200px"></img>
+  <a href="https://ignewstan.vercel.app/" target="_blank" title="Visite o site">
+    <img src="github/logo.svg" alt="logo" width="200px"></img>
+  </a>
 </h1>
 
 <p align="center">
@@ -12,6 +14,7 @@
 
 <p align="center">
   <img src="github/macbook.png" alt="Projeto no desktop" width="100%"></img>
+  <a href="https://ignewstan.vercel.app/" target="_blank">Visite o site</a>
 </p>
 
 ## ℹ Descrição
@@ -82,11 +85,11 @@ $ yarn dev
 
 5. **Na tela de pagamento, coloque esses dados**
 
-   - Número do cartão: 4242 4242 4242 4242
-   - CEP: 01001-000
-   - Preencha o restante das informações com dados fictícios.
+- Número do cartão: 4242 4242 4242 4242
+- CEP: 01001-000
+- Preencha o restante das informações com dados fictícios.
 
-6. **Pronto, acesse os posts completos.**
+6. **Pronto, acesse o conteúdo completo dos posts.**
 
 ## 👀 Demonstração
 
@@ -97,3 +100,4 @@ $ yarn dev
 ---
 
 <p align="center">Feito com 💜 por <a href="https://github.com/EduardoReisUX">Eduardo dos Reis</a></p>
+<p align="center">Deployed by ▲ Vercel</p>
