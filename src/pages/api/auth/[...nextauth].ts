@@ -70,4 +70,6 @@ export default NextAuth({
       }
     },
   },
+  secret:
+    "secret hashed string which no ones should know and, maybe, be a environment variable...",
 });
