@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://ignewstan.vercel.app/" target="_blank" title="Visite o site">
+  <a href="https://ignews-r9omlayqh-eduardoreisux.vercel.app" target="_blank" title="Visite o site">
     <img src="github/logo.svg" alt="logo" width="200px"></img>
   </a>
 </h1>
@@ -14,7 +14,7 @@
 
 <p align="center">
   <img src="github/macbook.png" alt="Projeto no desktop" width="100%"></img>
-  <a href="https://ignewstan.vercel.app/" target="_blank">Visite o site</a>
+  <a href="https://ignews-r9omlayqh-eduardoreisux.vercel.app" target="_blank">Visite o site</a>
 </p>
 
 ## ℹ Descrição
