@@ -32,6 +32,8 @@ describe("Post Preview page", () => {
     const content = screen.getByText("test-content");
     const updatedAt = screen.getByText(post.updatedAt);
 
+    // screen.logTestingPlaygroundURL();
+
     expect(title).toBeInTheDocument();
     expect(slug).not.toBeInTheDocument();
     expect(content).toBeInTheDocument();
