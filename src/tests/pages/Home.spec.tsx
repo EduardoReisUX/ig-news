@@ -21,7 +21,7 @@ describe("Home page", () => {
     expect(homepage).toBeInTheDocument();
   });
 
-  it("getStaticProps should load initial data", async () => {
+  it("getStaticProps should load initial data from stripe api", async () => {
     const retrievePricesStripeMocked = mocked(stripe.prices.retrieve);
 
     retrievePricesStripeMocked.mockResolvedValueOnce({

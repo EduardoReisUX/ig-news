@@ -20,15 +20,15 @@ const allPosts = [
 
 jest.mock("../../services/prismic");
 
-describe("a", () => {
-  const { debug } = render(<Posts posts={allPosts} />);
+describe("Posts page", () => {
+  render(<Posts posts={allPosts} />);
   const PostsPage = screen.getByText("a");
 
-  it("should render", () => {
+  it("should render correctly", () => {
     expect(PostsPage).toBeInTheDocument();
   });
 
-  it("should get data from prismic CMS", async () => {
+  it("getStaticProps should load initial data from PrismicCMS", async () => {
     const prismicClientMocked = mocked(getPrismicClient);
 
     prismicClientMocked.mockReturnValueOnce({
